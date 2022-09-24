@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet"  href="./css/bootstrap.css" >
+        <link rel="stylesheet"  href="FAQs.css" >
+        <script src="index.js"></script>
+    </head>
+    <body>
+
+
+<!--Navbar Start-->
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav" id="myTopnav">
+  <a href="./index.html" class="active" style="float:left" topic="Home" >WITS GDSC</a>
+  <a href="./help.html">Help?</a>
+  <a href="./about.html">About</a>
+  <a href="./FAQs.html">FAQs</a>
+  <a href="./Organisers.html">Organisers</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+          <!--End of navbar-->
+
+
+
+     <div>
+        <section class="contact-form-section mb-5">
+            <div class="container">
+              <form id="contact-form" class="contact-form p-5 col-lg-9 mx-lg-auto theme-bg-light shadow">
+                <h3 class="text-center">Ask A Question</h3>
+                <div class="mb-3 text-center">
+                  For any questions, please use the form below.
+                </div>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label class="sr-only" for="cname">Name</label>
+                    <input type="text" class="form-control" id="cname" name="name"
+                     placeholder="Name" minlength="2" required="">
+                  </div>
+                  <div class="col-md-6">
+                    <label class="sr-only" for="cemail">Email</label>
+                    <input type="email" class="form-control" id="cemail" name="email"
+                     placeholder="Email" required="">
+                  </div>
+    
+                  <div class="col-12">
+                    <label class="sr-only" for="cmessage">Your message</label>
+                    <textarea class="form-control" id="cmessage" name="message"
+                     placeholder="Enter your message" rows="10" required=""
+                      style="height: 276px;"></textarea>
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="btn w-100 btn-primary py-2">
+                      Submit
+                    </button>
+                  </div>
+                </div>
+                <!--//form-row-->
+              </form>
+            </div>
+            <!--//container-->
+          </section>
+     </div>
+    </body>
+</html>
